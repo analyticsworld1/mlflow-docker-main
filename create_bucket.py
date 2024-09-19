@@ -20,7 +20,7 @@ if minioUrl == None:
     print('[!] MLFLOW_S3_ENDPOINT_URL environment variable is empty! run \'source .env\' to load it from the .env file')
     exit(1)
 
-    
+    # the new option
 if bucketName == None:
     print('[!] AWS_BUCKET_NAME environment variable is empty! run \'source .env\' to load it from the .env file')
     exit(1)
